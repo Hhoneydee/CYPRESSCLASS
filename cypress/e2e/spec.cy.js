@@ -21,6 +21,8 @@ describe('LOGIN', () => {
    cy.get('[data-test="continue"]') .click()
    cy.get('[data-test="finish"]') .click()
    cy.get('[data-test="back-to-products"]') .click()
+   cy.get('#react-burger-menu-btn').click ()
+   cy.get('[data-test="logout-sidebar-link"]') .click()
    
      
   })
